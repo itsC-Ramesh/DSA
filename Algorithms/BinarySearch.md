@@ -10,7 +10,7 @@
    - Initialize two pointers: `left` and `right`. `left` points to the first element in the collection, and `right` points to the last element in the collection.
 
 2. **Midpoint Calculation:**
-   - Calculate the midpoint index as `mid = (left + right) / 2`.
+   - Calculate the midpoint index as `mid = left + (right - left) / 2`.
 
 3. **Comparison:**
    - Compare the element at the midpoint (`arr[mid]`) with the target element you want to find.
